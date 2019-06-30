@@ -5,7 +5,12 @@ afk=1000
 shopAfk=3000
 n=20
 
-picPath=D:\github\summonerswar\			;CHANGE
+
+replayX = 600
+replayY = 580
+
+
+picPath=D:\github\summonerswar\pics\			;CHANGE
 
 ;-----------------------------------Dragon-------------------------------------------
 !d::
@@ -33,9 +38,15 @@ return
 ;---------------------------------FUNCTION------------------------------------------
 Function(picPath, replay, shop, fail){
 
-	WinGetPos, , , x, y, A
-	colectX := x*0.522
-	colectY := y*0.7984
+	WinGetPos, , , winX, winY, A
+	colectX := winX*0.522
+	colectY := winY*0.7984
+	
+	replayX := winX*0.3125
+	replayY := winY*0.5577
+	
+	failX := winX*0.625
+	failY := winY*0.6538
 	
 	MsgBox,64 ,No Shit,  SCRIPT ACTIVE , 1.5
 	sleep, 1600
@@ -50,7 +61,7 @@ loop {
 	ImageSearch, failX, failY, 0, 0, 1920, 1080,*%n% %picPath%%fail%
 	if(ErrorLevel = 1){
 		sleep, 100
-		ImageSearch, replayX, replayY, 0, 0, 1920, 1080, *%n% %picPath%%replay%
+		ImageSearch, x, y, 0, 0, 1920, 1080, *%n% %picPath%%replay%
 		sleep, 100
 		if(ErrorLevel = 1){
 			MouseClick, left, colectX, colectY
