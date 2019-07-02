@@ -1,13 +1,17 @@
-;ALT+D za dragon farmo
-;ALT+H za dimensional hole
-;
+/*
+
+	ALT+D za dragon farmo
+	ALT+H za dimensional hole
+
+
+*/
 end=0
 afk=1000
-n=20
+n=50
 
 
-numOfRuns = /									;
-refil = 1										;kolk refilov
+numOfRuns = -1									;kolk runov ( -1 za izklop )
+refil = 1										;kolk refilov 
 exitNox = 0										;0=false  1=true
 shutDown = 0									;0=false  1=true
 delay = 0										;(2min20 v ms)		140000
@@ -15,7 +19,7 @@ delay = 0										;(2min20 v ms)		140000
 picPath = D:\github\summonerswar\pics\			;CHANGE
 
 
-;-----------------------------------Dragon-------------------------------------------
+;-----------------------------------Doungeon-------------------------------------------
 !d::
 
 ;Pics name
@@ -87,7 +91,7 @@ Function(){
 		}
 		
 		else if(ErrorLevel = 1){
-			ImageSearch, x, y, 0, 0, winX, winY, *%n% %picPath%%replay%
+			ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%replay%
 			sleep, 100
 			if(ErrorLevel = 1){
 				MouseClick, left, colectX, colectY
@@ -129,8 +133,7 @@ if(exitNox = 1){
 	sleep, afk
 	Send, {Alt up}
 	sleep, afk
-	;MouseClick, left, 300, 160		;ok (for exit of nox)
-	MouseMove, 300, 160
+	MouseClick, left, 300, 160		;ok (for exit of nox)
 	sleep, afk
 }
 
@@ -140,8 +143,7 @@ if(shutDown = 1){
 	sleep, afk
 	MouseClick, left, 20, 1010		;power off menu
 	sleep, afk
-	;MouseClick, left, 60, 930		;shut down
-	MouseMove, 60, 930
+	MouseClick, left, 60, 930		;shut down
 	sleep, afk
 }
 ExitApp
@@ -149,17 +151,18 @@ ExitApp
 
 shopFunc(){
 global
+
 MouseClick, left, shopX, shopY
 sleep, afk
-MouseClick, left, 800, 650		;max energy
+MouseClick, left, winX*0.417 , winY*0.625		;max energy
 sleep, afk
-MouseClick, left, 800, 650		;yes
-sleep, afk*3					;rabi mal vec sleepa
-MouseClick, left, 860, 650		;ok
+MouseClick, left, winX*0.417, winY*0.625		;yes
+sleep, afk*3									;rabi mal vec sleepa
+MouseClick, left, winX*0.448 , winY*0.625		;ok
 sleep, afk
-MouseClick, left, 930, 900		;close
+MouseClick, left, winX*0.484 , winY*0.865		;close
 sleep, afk
-MouseClick, left, 600, 580		;replay
+MouseClick, left, winX*0.313 , winY*0.558		;replay
 
 refil--
 sleep, afk
@@ -171,6 +174,33 @@ Esc::
 Reload
 ExitApp
 return
+
+/*
+
+
+replay dime hole	520 545 do 680 610
+replay dragon		520 545 do 680 610
+replay giant
+replay necro
+replay elemental
+replay scenario
+
+fail dime hole	
+fail dragon		
+fail giant
+fail necro
+fail elemental
+fail scenario
+
+
+
+*/
+
+
+
+
+
+
 
 
 
