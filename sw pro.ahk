@@ -1,16 +1,19 @@
-colectX=0
-colectY=0
+;ALT+D za dragon farmo
+;ALT+H za dimensional hole
+;
 end=0
 afk=1000
-shopAfk=3000
 n=20
 
 
-replayX = 600
-replayY = 580
+numOfRuns = /									;
+refil = 1										;kolk refilov
+exitNox = 0										;0=false  1=true
+shutDown = 0									;0=false  1=true
+delay = 0										;(2min20 v ms)		140000
 
+picPath = D:\github\summonerswar\pics\			;CHANGE
 
-picPath=D:\github\summonerswar\pics\			;CHANGE
 
 ;-----------------------------------Dragon-------------------------------------------
 !d::
@@ -20,162 +23,148 @@ replay 	= dReplay.png
 fail 	= dFail.png
 shop 	= shop.png
 
-Function(picPath, replay, shop, fail)
+Function()
 
 return
 ;-------------------------------Dimensional Hole-------------------------------------
-!h:: 
+!h::
 
 ;Pics name
 replay 	= hReplay.png
 fail 	= hFail.png
 
-Function(picPath, replay, shop, fail)
+Function()
 
 return
 
 
 ;---------------------------------FUNCTION------------------------------------------
-Function(picPath, replay, shop, fail){
-
+Function(){
+	global
+	
 	WinGetPos, , , winX, winY, A
 	colectX := winX*0.522
 	colectY := winY*0.7984
-	
+
 	replayX := winX*0.3125
 	replayY := winY*0.5577
-	
+
 	failX := winX*0.625
 	failY := winY*0.6538
-	
+
 	MsgBox,64 ,No Shit,  SCRIPT ACTIVE , 1.5
-	sleep, 1600
 
-loop {
-	if(end=0){
-		sleep, delay
-		end++
-	}
-	
-	sleep, afk
-	ImageSearch, failX, failY, 0, 0, 1920, 1080,*%n% %picPath%%fail%
-	if(ErrorLevel = 1){
-		sleep, 100
-		ImageSearch, x, y, 0, 0, 1920, 1080, *%n% %picPath%%replay%
-		sleep, 100
-		if(ErrorLevel = 1){
-			MouseClick, left, colectX, colectY
+	loop 
+	{
+		if(end=0){
+			sleep, delay
+			end++
 		}
-		else
-		{
-			end--
-			MouseClick, left, replayX, replayY
+	
+		sleep, afk
+		ImageSearch, x, y, 0, 0, winX, winY,*%n% %picPath%%fail%
+		sleep, 100
+		if(ErrorLevel = 0){
+			MouseClick, left, failX, failY
 			sleep, afk
-			ImageSearch, shopX, shopY, 0, 0, 1920, 1080,*%n% %picPath%%shop%
+			MouseClick, left, colectX, colectY
+			sleep, afk
+			MouseClick, left, 600, 580
+			sleep, afk
+	
+			ImageSearch, shopX, shopY, 0, 0, winX, winY,*%n% %picPath%%shop%
+				sleep, 100
+				if(ErrorLevel = 0){
+					if(refil=0){
+						exitFunc(exitNox, shutDown, afk)
+					}
+					else{
+						shopFunc()
+					}
+				}
+			sleep, afk
+			MouseClick, left, 1600, 750
+		}
+		
+		else if(ErrorLevel = 1){
+			ImageSearch, x, y, 0, 0, winX, winY, *%n% %picPath%%replay%
 			sleep, 100
 			if(ErrorLevel = 1){
-			
+				MouseClick, left, colectX, colectY
 			}
-			else{
-				if(refil=0){
-					Send, {Alt down}
-					sleep, afk
-					Send, {F4}
-					sleep, afk
-					Send, {Alt up}
-					sleep, afk
-					MouseClick, left, 300, 160		;ok (for exit of nox)
-					sleep, afk
-					CoordMode, Mouse, Screen
-					MouseClick, left, 0, 1070		;start button
-					sleep, afk
-					MouseClick, left, 20, 1010		;power off menu
-					sleep, afk
-					MouseMove, 60, 930		;shut down
-					sleep, afk
-					CoordMode, Mouse, Window 
-					ExitApp
-				}
-				else{
-				MouseClick, left, shopX, shopY
-				sleep, afk
-				MouseClick, left, 800, 650		;max energy
-				sleep, afk
-				MouseClick, left, 800, 650		;yes
-				sleep, shopAfk
-				MouseClick, left, 860, 650		;ok
-				sleep, afk
-				MouseClick, left, 930, 900		;close
-				sleep, afk
+			else
+			{
+				end--
 				MouseClick, left, replayX, replayY
-				
-				refil--
 				sleep, afk
+				ImageSearch, shopX, shopY, 0, 0, winX, winY,*%n% %picPath%%shop%
+				sleep, 100
+				if(ErrorLevel = 0){
+					if(refil=0){
+						exitFunc(exitNox, shutDown, afk)
+					}
+					else{
+						shopFunc()
+					}
 				}
 			}
 		}
-	}
-	else{
-		sleep, 100
-		MouseClick, left, failX, failY
-		;MouseClick, left, 1200, 700			;dimensional rift
-		sleep, afk
-		MouseClick, left, colectX, colectY
-		sleep, afk
-		MouseClick, left, 600, 580
-		sleep, afk
 		
-		ImageSearch, shopX, shopY, 0, 0, 1920, 1080,*%n% %picPath%%shop%
-			sleep, 100
-			if(ErrorLevel = 1){
+		else if(ErrorLevel = 2){
 			
-			}
-			else{
-				if(refil=0){
-					Send, {Alt down}
-					sleep, afk
-					Send, {F4}
-					sleep, afk
-					Send, {Alt up}
-					sleep, afk
-					MouseClick, left, 300, 160		;ok (for exit of nox)
-					sleep, afk
-					CoordMode, Mouse, Screen
-					MouseClick, left, 0, 1070		;start button
-					sleep, afk
-					MouseClick, left, 20, 1010		;power off menu
-					sleep, afk
-					MouseMove, 60, 930		;shut down
-					sleep, afk
-					CoordMode, Mouse, Window 
-					ExitApp
-				}
-				else{
-				MouseClick, left, shopX, shopY
-				sleep, afk
-				MouseClick, left, 800, 650		;max energy
-				sleep, afk                
-				MouseClick, left, 800, 650		;yes
-				sleep, shopAfk                
-				MouseClick, left, 860, 650		;ok
-				sleep, afk                
-				MouseClick, left, 930, 900		;close
-				sleep, afk
-				MouseClick, left, 600, 580
-				
-				refil--
-				sleep, afk
-				}
-			}
-		
-		sleep, afk
-		MouseClick, left, 1600, 750
+			MsgBox,64 ,No Shit,  WTF , 1.5
+			sleep, 2000
+			
+		}
+	
 	}
 	
 }
 
+exitFunc(exitNox, shutDown, afk){
+if(exitNox = 1){
+	Send, {Alt down}
+	sleep, afk
+	Send, {F4}
+	sleep, afk
+	Send, {Alt up}
+	sleep, afk
+	;MouseClick, left, 300, 160		;ok (for exit of nox)
+	MouseMove, 300, 160
+	sleep, afk
 }
-	
+
+if(shutDown = 1){
+	CoordMode, Mouse, Screen
+	MouseClick, left, 0, 1070		;start button
+	sleep, afk
+	MouseClick, left, 20, 1010		;power off menu
+	sleep, afk
+	;MouseClick, left, 60, 930		;shut down
+	MouseMove, 60, 930
+	sleep, afk
+}
+ExitApp
+}
+
+shopFunc(){
+global
+MouseClick, left, shopX, shopY
+sleep, afk
+MouseClick, left, 800, 650		;max energy
+sleep, afk
+MouseClick, left, 800, 650		;yes
+sleep, afk*3					;rabi mal vec sleepa
+MouseClick, left, 860, 650		;ok
+sleep, afk
+MouseClick, left, 930, 900		;close
+sleep, afk
+MouseClick, left, 600, 580		;replay
+
+refil--
+sleep, afk
+}
+
 
 
 Esc::
