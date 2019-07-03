@@ -8,15 +8,16 @@
 end=0
 afk=1000
 n=50
+failCount = 0
 
 
-numOfRuns = -1									;kolk runov ( -1 za izklop )
-refil = 1										;kolk refilov 
+run = -1										;num of runs ( -1 za izklop )
+refil = 1										;num of refils ( -1 za izklop (ce uporablas run lahk pa tut oboje))
 exitNox = 0										;0=false  1=true
 shutDown = 0									;0=false  1=true
 delay = 0										;(2min20 v ms)		140000
 
-picPath = D:\github\summonerswar\pics\			;CHANGE
+picPath = D:\github\summonerswar\pics\			;CHANGE path (no name of img) end with \
 
 
 ;-----------------------------------Doungeon-------------------------------------------
@@ -26,6 +27,9 @@ picPath = D:\github\summonerswar\pics\			;CHANGE
 replay 	= dReplay.png
 fail 	= dFail.png
 shop 	= shop.png
+
+FormatTime, currentTime
+FileAppend, `n%currentTime% Run started refils="refil"  runs="run"`n, %picPath%faildata.txt
 
 Function()
 
@@ -66,28 +70,34 @@ Function(){
 		}
 	
 		sleep, afk
-		ImageSearch, x, y, 0, 0, winX, winY,*%n% %picPath%%fail%
+		ImageSearch, winX*0.594, winY*0.615, winX*0.672, winY*0.711, *%n% %picPath%%fail%
 		sleep, 100
 		if(ErrorLevel = 0){
+			FormatTime, currentTime, ,Time
+			failCount++
+			FileAppend, %currentTime% - U fail %failCount% `n, %picPath%faildata.txt
+			
+			end--
+			run--
 			MouseClick, left, failX, failY
 			sleep, afk
 			MouseClick, left, colectX, colectY
 			sleep, afk
-			MouseClick, left, 600, 580
+			MouseClick, left, winX*0.313 , winY*0.558
 			sleep, afk
 	
-			ImageSearch, shopX, shopY, 0, 0, winX, winY,*%n% %picPath%%shop%
+			ImageSearch, shopX, shopY, winX*0.338, winY*0.528, winX*0.49, winY*0.71,*%n% %picPath%%shop%
 				sleep, 100
 				if(ErrorLevel = 0){
 					if(refil=0){
-						exitFunc(exitNox, shutDown, afk)
+						break
 					}
 					else{
 						shopFunc()
 					}
 				}
 			sleep, afk
-			MouseClick, left, 1600, 750
+			MouseClick, left, winX*0.834, winX*0.721
 		}
 		
 		else if(ErrorLevel = 1){
@@ -99,13 +109,14 @@ Function(){
 			else
 			{
 				end--
+				run--
 				MouseClick, left, replayX, replayY
 				sleep, afk
-				ImageSearch, shopX, shopY, 0, 0, winX, winY,*%n% %picPath%%shop%
+				ImageSearch, shopX, shopY, winX*0.338, winY*0.528, winX*0.49, winY*0.71,*%n% %picPath%%shop%
 				sleep, 100
 				if(ErrorLevel = 0){
 					if(refil=0){
-						exitFunc(exitNox, shutDown, afk)
+						break
 					}
 					else{
 						shopFunc()
@@ -120,13 +131,15 @@ Function(){
 			sleep, 2000
 			
 		}
+		
+		if(run=0)
+		{
+			break
+		}
 	
 	}
 	
-}
-
-exitFunc(exitNox, shutDown, afk){
-if(exitNox = 1){
+	if(exitNox = 1){
 	Send, {Alt down}
 	sleep, afk
 	Send, {F4}
@@ -135,9 +148,9 @@ if(exitNox = 1){
 	sleep, afk
 	MouseClick, left, 300, 160		;ok (for exit of nox)
 	sleep, afk
-}
+	}
 
-if(shutDown = 1){
+	if(shutDown = 1){
 	CoordMode, Mouse, Screen
 	MouseClick, left, 0, 1070		;start button
 	sleep, afk
@@ -145,8 +158,9 @@ if(shutDown = 1){
 	sleep, afk
 	MouseClick, left, 60, 930		;shut down
 	sleep, afk
-}
-ExitApp
+	}
+	ExitApp
+	
 }
 
 shopFunc(){
@@ -183,15 +197,16 @@ replay dragon		520 545 do 680 610
 replay giant
 replay necro
 replay elemental
-replay scenario
+replay scenario		520 545 do 680 610
 
 fail dime hole	
-fail dragon		
+fail dragon			1170 660 do 1260 720
 fail giant
 fail necro
 fail elemental
-fail scenario
+fail scenario		1170 660 do 1260 720
 
+shop	650 550 do 940 730
 
 
 */
