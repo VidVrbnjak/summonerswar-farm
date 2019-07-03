@@ -22,15 +22,12 @@ delay = 0										;(Delay at star of each run in miliseconds)		my=140000
 
 picPath = D:\github\summonerswar\pics\			;CHANGE path (no name of img) end with \
 shop 	= shop.png								;Change name
-replay 	= Replay.png							;Change name
+replay 	= replay.png							;Change name
+fail 	= fail.png								;Change name
 
 
 /*----------------------------------Doungeon----------------------------------------------------------------------------------------------------------------*/
 !d::
-
-;Pics name
-fail 	= dFail.png								;Change name
-
 
 FormatTime, currentTime
 FileAppend, `n%currentTime% Doungeon run started refils="refil"  runs="run"`n, %picPath%faildata.txt
@@ -40,9 +37,6 @@ Function()
 return
 /*----------------------------------Dimensional Hole----------------------------------------------------------------------------------------------------------------*/
 !h::
-
-;Pics name
-fail 	= hFail.png								;Change name
 
 FormatTime, currentTime
 FileAppend, `n%currentTime% Dimensional hole run started runs="run"`n, %picPath%faildata.txt
@@ -137,6 +131,7 @@ Function(){
 			
 			MsgBox,64 ,No Shit,  WTF , 1.5
 			sleep, 2000
+			break
 			
 		}
 		
@@ -167,6 +162,8 @@ Function(){
 	MouseClick, left, 60, 930		;shut down
 	sleep, afk
 	}
+	FormatTime, currentTime, ,Time
+	FileAppend, %currentTime% - Script ended at %numOfReplays% runs `n, %picPath%faildata.txt
 	ExitApp
 	
 }
