@@ -1,52 +1,58 @@
-/*
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------
+	faildata.txt da si lahk poglejas kolkkrat si failo
+	CHANGE picPath, replay, fail, shop
 
-	ALT+D za dragon farmo
-	ALT+H za dimensional hole
+	ALT+D za Doungeon farmo
+	ALT+H za Dimensional hole farmo
 
 
-*/
-end=0
-afk=1000
-n=50
+-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 failCount = 0
+numOfReplays=0
+end=0
+n=50
+afk=1000
 
-
+/*----------------------------------- OPTIONS ---------------------------------------------------------------------------------------------------------------*/
 run = -1										;num of runs ( -1 za izklop )
 refil = 1										;num of refils ( -1 za izklop (ce uporablas run lahk pa tut oboje))
-exitNox = 0										;0=false  1=true
-shutDown = 0									;0=false  1=true
-delay = 0										;(2min20 v ms)		140000
+exitNox = 0										;0=false  1=true	(at the end exit noxplayer)
+shutDown = 0									;0=false  1=true	(at the end shut down PC)
+delay = 0										;(Delay at star of each run in miliseconds)		my=140000
 
 picPath = D:\github\summonerswar\pics\			;CHANGE path (no name of img) end with \
+shop 	= shop.png								;Change name
+replay 	= Replay.png							;Change name
 
 
-;-----------------------------------Doungeon-------------------------------------------
+/*----------------------------------Doungeon----------------------------------------------------------------------------------------------------------------*/
 !d::
 
 ;Pics name
-replay 	= dReplay.png
-fail 	= dFail.png
-shop 	= shop.png
+fail 	= dFail.png								;Change name
+
 
 FormatTime, currentTime
-FileAppend, `n%currentTime% Run started refils="refil"  runs="run"`n, %picPath%faildata.txt
+FileAppend, `n%currentTime% Doungeon run started refils="refil"  runs="run"`n, %picPath%faildata.txt
 
 Function()
 
 return
-;-------------------------------Dimensional Hole-------------------------------------
+/*----------------------------------Dimensional Hole----------------------------------------------------------------------------------------------------------------*/
 !h::
 
 ;Pics name
-replay 	= hReplay.png
-fail 	= hFail.png
+fail 	= hFail.png								;Change name
+
+FormatTime, currentTime
+FileAppend, `n%currentTime% Dimensional hole run started runs="run"`n, %picPath%faildata.txt
 
 Function()
 
 return
 
 
-;---------------------------------FUNCTION------------------------------------------
+/*----------------------------------Function----------------------------------------------------------------------------------------------------------------*/
 Function(){
 	global
 	
@@ -75,7 +81,8 @@ Function(){
 		if(ErrorLevel = 0){
 			FormatTime, currentTime, ,Time
 			failCount++
-			FileAppend, %currentTime% - U fail %failCount% `n, %picPath%faildata.txt
+			numOfReplays++
+			FileAppend, %currentTime% - U fail %failCount%. at %numOfReplays% run `n, %picPath%faildata.txt
 			
 			end--
 			run--
@@ -110,6 +117,7 @@ Function(){
 			{
 				end--
 				run--
+				numOfReplays++
 				MouseClick, left, replayX, replayY
 				sleep, afk
 				ImageSearch, shopX, shopY, winX*0.338, winY*0.528, winX*0.49, winY*0.71,*%n% %picPath%%shop%
