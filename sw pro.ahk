@@ -1,24 +1,27 @@
-/*-----------------------------------------------------------------------------------------------------------------------------------------------------------
-	faildata.txt da si lahk poglejas kolkkrat si failo
-	CHANGE picPath, replay, fail, shop
+/*	to do list:	
+	-scenario(run sale)
+	-elementals(adjust auto click)
+	-add exit if test comes up
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+	;faildata.txt da si lahk poglejas kolkkrat si failo
+	;CHANGE picPath, replay, fail, shop
 
-	ALT+D za Doungeon farmo
-	ALT+H za Dimensional hole farmo
+	;ALT+D za Doungeon farmo
+	;ALT+H za Dimensional hole farmo
+*/
 
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 failCount = 0
 numOfReplays=0
 end=0
 n=50
 afk=1000
 
-/*----------------------------------- OPTIONS ---------------------------------------------------------------------------------------------------------------*/
+;----------------------------------- OPTIONS ---------------------------------------------------------------------------------------------------------------
 run = -1										;num of runs ( -1 za izklop )
 refil = 1										;num of refils ( -1 za izklop (ce uporablas run lahk pa tut oboje))
 exitNox = 0										;0=false  1=true	(at the end exit noxplayer)
 shutDown = 0									;0=false  1=true	(at the end shut down PC)
-delay = 0										;(Delay at star of each run in miliseconds)		my=140000
+delay = 140000									;(Delay at star of each run in miliseconds)		my=140000
 
 picPath = D:\github\summonerswar\pics\			;CHANGE path (no name of img) end with \
 shop 	= shop.png								;Change name
@@ -26,7 +29,7 @@ replay 	= replay.png							;Change name
 fail 	= fail.png								;Change name
 
 
-/*----------------------------------Doungeon----------------------------------------------------------------------------------------------------------------*/
+;---------------------------------Doungeon----------------------------------------------------------------------------------------------------------------
 !d::
 
 FormatTime, currentTime
@@ -35,7 +38,7 @@ FileAppend, `n%currentTime% Doungeon run started refils="refil"  runs="run"`n, %
 Function()
 
 return
-/*----------------------------------Dimensional Hole----------------------------------------------------------------------------------------------------------------*/
+;----------------------------------Dimensional Hole----------------------------------------------------------------------------------------------------------------
 !h::
 
 FormatTime, currentTime
@@ -46,7 +49,7 @@ Function()
 return
 
 
-/*----------------------------------Function----------------------------------------------------------------------------------------------------------------*/
+;----------------------------------Function----------------------------------------------------------------------------------------------------------------
 Function(){
 	global
 	
@@ -70,7 +73,7 @@ Function(){
 		}
 	
 		sleep, afk
-		ImageSearch, winX*0.594, winY*0.615, winX*0.672, winY*0.711, *%n% %picPath%%fail%
+		ImageSearch, x, y, winX*0.594, winY*0.615, winX*0.672, winY*0.711, *%n% %picPath%%fail%
 		sleep, 100
 		if(ErrorLevel = 0){
 			FormatTime, currentTime, ,Time
@@ -98,7 +101,7 @@ Function(){
 					}
 				}
 			sleep, afk
-			MouseClick, left, winX*0.834, winX*0.721
+			MouseClick, left, winX*0.834, winY*0.721
 		}
 		
 		else if(ErrorLevel = 1){
@@ -142,6 +145,10 @@ Function(){
 	
 	}
 	
+	FormatTime, currentTime, ,Time
+	FileAppend, %currentTime% - Script ended at %numOfReplays% runs `n, %picPath%faildata.txt
+	sleep, afk
+	
 	if(exitNox = 1){
 	Send, {Alt down}
 	sleep, afk
@@ -162,8 +169,7 @@ Function(){
 	MouseClick, left, 60, 930		;shut down
 	sleep, afk
 	}
-	FormatTime, currentTime, ,Time
-	FileAppend, %currentTime% - Script ended at %numOfReplays% runs `n, %picPath%faildata.txt
+	
 	ExitApp
 	
 }
@@ -194,6 +200,8 @@ Reload
 ExitApp
 return
 
+
+
 /*
 
 
@@ -215,8 +223,6 @@ shop	650 550 do 940 730
 
 
 */
-
-
 
 
 
