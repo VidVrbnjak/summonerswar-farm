@@ -1,0 +1,14 @@
+
+19:13 èetrtek, 04. julij 2019 Doungeon run started refils="refil"  runs="run"
+19:13 - Script ended after 0 runs 
+
+20:23 èetrtek, 04. julij 2019 Doungeon run started refils="refil"  runs="run"
+20:35 - Script ended after 4 runs 
+
+08:18 petek, 05. julij 2019 Doungeon run started refils="refil"  runs="run"
+09:37 - Script ended after 26 runs 
+
+09:48 petek, 05. julij 2019 Doungeon run started. Num of refils=1 and/or runs=-1
+10:09 - Script ended after 6 runs 
+
+11:34 petek, 05. julij 2019 Doungeon run started. Num of refils=1 and/or runs=-1
