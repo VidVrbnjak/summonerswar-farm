@@ -1,5 +1,6 @@
 /*	to do list:	
-	-add exit if test comes up and chack how many refils before that happens
+	-chack how many refils before quiz
+	-sell useless runes with help of sw exporter
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 	;faildata.txt Logs of fails and runes at the end
 	;CHANGE picPath, replay, fail, shop
@@ -214,6 +215,15 @@ MouseClick, left, winX*0.484 , winY*0.865		;close
 sleep, afk
 MouseClick, left, winX*0.313 , winY*0.558		;replay
 
+sleep, afk*3
+ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%quiz%
+if(ErrorLevel = 0)
+{
+	run=0
+	FileAppend, quiz hapend after %refilCount% refils `n, %picPath%faildata.txt
+	refilCount--
+}
+
 refilCount++
 refil--
 sleep, afk
@@ -261,7 +271,8 @@ rune sell ok	850 670  (where to imgsrch 650 550	920 720)
 950, 880		;magic farm autoclick
 
 
-
+quiz 850 95  940 140
+820 70		1000 190 
 
 */
 

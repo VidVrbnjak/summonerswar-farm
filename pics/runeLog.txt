@@ -1,0 +1,9 @@
+date,dungeon,result,time,mana,crystal,energy,drop,grade,sell_value,set,efficiency,slot,rarity,main_stat,prefix_stat,sub1,sub2,sub3,sub4,team1,team2,team3,team4,team5
+2019-07-05 12:02,"Dragon's Lair B10",Win,2:38,9080,0,1,Rune,5*,12613,Focus,43.10,4,Hero,CRI Rate 5%,Resistance 4%,HP +134,ATK 5%,HP 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 13:34,"Dragon's Lair B10",Win,2:46,4452,0,0,Rune,5*,17000,Violent,50.84,2,Hero,SPD +5,HP +205,Accuracy 6%,HP 6%,CRI Dmg 3%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 12:13,"Dragon's Lair B10",Win,2:44,9107,0,1,Mystical Scroll,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+				1					2	3	4	  5 6 7    8  9      10   11   12 13   14          15           16       17    18     19 20      21      22     23          24
+				
+				
+date,dungeon,result,time,mana,crystal,energy,drop,grade,sell_value,set,efficiency,slot,rarity,main_stat,prefix_stat,sub1,sub2,sub3,sub4,team1,team2,team3,team4,team5
+  0    1        2    3    4     5        6    7    8        9      10      11      12    13      14          15      16   17   18   19   20     21    22    23    24                                
