@@ -12,3 +12,9 @@
 10:09 - Script ended after 6 runs 
 
 11:34 petek, 05. julij 2019 Doungeon run started. Num of refils=1 and/or runs=-1
+
+01:12 sobota, 06. julij 2019 Doungeon run started. Num of refils=8 and/or runs=-1
+08:36 - Script ended after 54 runs 
+
+09:42 sobota, 06. julij 2019 Doungeon run started. Num of refils=1 and/or runs=-1
+10:07 - Script ended after 8 runs 

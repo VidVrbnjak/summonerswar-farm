@@ -1,6 +1,6 @@
 /*	to do list:	
 	-chack how many refils before quiz
-	-sell useless runes with help of sw exporter
+	-sell useless runes - sw exporter
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 	;faildata.txt Logs of fails and runes at the end
 	;CHANGE picPath, replay, fail, shop
@@ -129,7 +129,7 @@ Function(){
 		else if(ErrorLevel = 1){
 			ImageSearch, sellOkX, sellOkY, winX*0.338, winY*0.528, winX*0.49, winY*0.71,*%n% %picPath%%runeSell%
 			if(ErrorLevel = 0){
-				MouseClick, left, sellOkY, sellOkY
+				MouseClick, left, sellOkY, sellOkY	
 			}			
 			
 			ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%replay%
@@ -213,22 +213,25 @@ MouseClick, left, winX*0.448 , winY*0.625		;ok
 sleep, afk
 MouseClick, left, winX*0.484 , winY*0.865		;close
 sleep, afk
-MouseClick, left, winX*0.313 , winY*0.558		;replay
-
-sleep, afk*3
-ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%quiz%
-if(ErrorLevel = 0)
-{
+quizCounter=0
+loop 5{
+	ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%replay%
+	if(ErrorLevel = 0){
+		MouseClick, left, winX*0.313 , winY*0.558		;replay
+		break
+	}
+	quizCounter++
+	sleep, afk
+}
+if(quizCounter>4){
 	run=0
 	FileAppend, quiz hapend after %refilCount% refils `n, %picPath%faildata.txt
 	refilCount--
 }
-
 refilCount++
 refil--
 sleep, afk
 }
-
 
 
 Esc::
