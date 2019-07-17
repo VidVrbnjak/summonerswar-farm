@@ -1,0 +1,175 @@
+date,dungeon,result,time,mana,crystal,energy,drop,grade,sell_value,set,efficiency,slot,rarity,main_stat,prefix_stat,sub1,sub2,sub3,sub4,team1,team2,team3,team4,team5
+2019-07-05 14:23,"Dragon's Lair B10",Win,2:45,4444,0,0,Rune,5*,10511,Endure,40.37,4,Rare,DEF 8%,Resistance 3%,HP +133,ATK 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 14:27,"Dragon's Lair B10",Win,2:48,4902,0,1,Rune,5*,13133,Revenge,48.11,5,Hero,HP +270,DEF 5%,CRI Dmg 3%,HP 6%,CRI Rate 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 14:34,"Dragon's Lair B10",Win,2:48,4910,0,2,Rune,5*,11679,Guard,41.93,2,Rare,DEF 8%,HP +243,ATK +11,ATK 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 14:40,"Dragon's Lair B10",Win,3:01,4729,0,1,Symbol of Chaos x4,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 14:52,"Dragon's Lair B10",Win,2:39,4573,0,2,Rune,5*,8759,Focus,46.10,3,Rare,DEF +15,SPD +4,HP 7%,HP +260,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 14:56,"Dragon's Lair B10",Win,2:33,4473,0,2,Rune,5*,10511,Endure,51.26,3,Hero,DEF +15,CRI Rate 5%,Accuracy 6%,DEF 6%,HP 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 15:07,"Dragon's Lair B10",Win,2:51,5116,0,1,Rune,5*,20065,Shield,52.84,2,Legendary,ATK 8%,SPD +4,Resistance 6%,Accuracy 4%,CRI Rate 5%,ATK +12,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 15:12,"Dragon's Lair B10",Win,2:54,4188,0,1,Rune,5*,11679,Endure,42.38,2,Rare,ATK +15,ATK 4%,CRI Dmg 5%,SPD +3,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 15:20,"Dragon's Lair B10",Win,2:56,4349,0,0,Rune Piece x8,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:13,"Dragon's Lair B10",Win,2:32,4781,0,2,Rune,5*,11912,Endure,46.21,6,Hero,DEF 8%,ATK +14,ATK 4%,DEF +13,CRI Dmg 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:16,"Dragon's Lair B10",Win,2:52,4866,0,0,Rune,5*,10215,Shield,39.75,5,Rare,HP +270,,HP 6%,ATK +11,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:19,"Dragon's Lair B10",Win,2:43,4357,0,0,Rune,5*,7007,Guard,41.74,3,Rare,DEF +15,,Accuracy 7%,Resistance 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:22,"Dragon's Lair B10",Win,2:44,4123,0,1,Rune,5*,9343,Guard,37.72,2,Rare,ATK 8%,,DEF +8,CRI Rate 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:25,"Dragon's Lair B10",Win,2:49,4821,0,3,Rune,5*,13770,Violent,45.94,4,Rare,HP +270,Accuracy 6%,DEF 6%,CRI Rate 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:28,"Dragon's Lair B10",Win,2:49,4507,0,0,Rune,5*,12130,Shield,39.06,1,Rare,ATK +15,,Resistance 6%,SPD +3,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:36,"Dragon's Lair B10",Win,2:48,4727,0,2,Rune,5*,10944,Shield,43.31,3,Rare,DEF +15,CRI Dmg 3%,HP 6%,CRI Rate 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:39,"Dragon's Lair B10",Win,2:30,4368,0,1,Rune,5*,16150,Violent,47.27,1,Hero,ATK +15,CRI Rate 3%,CRI Dmg 5%,Accuracy 4%,HP +257,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:43,"Dragon's Lair B10",Win,2:35,4648,0,2,Rune,5*,14015,Focus,45.42,2,Hero,ATK +15,CRI Dmg 3%,HP 5%,HP +267,Accuracy 3%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:47,"Dragon's Lair B10",Win,3:06,4779,0,1,Rune,5*,10880,Violent,40.58,5,Rare,HP +270,,DEF 6%,SPD +4,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:52,"Dragon's Lair B10",Win,3:19,4366,0,2,Rune,6*,19408,Endure,53.32,4,Rare,DEF +22,CRI Dmg 5%,HP 8%,Resistance 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 16:55,"Dragon's Lair B10",Win,2:43,4218,0,1,Rune,5*,13080,Endure,46.92,5,Legendary,HP +270,,CRI Dmg 3%,Accuracy 7%,ATK +10,CRI Rate 3%,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:00,"Dragon's Lair B10",Win,2:39,5025,0,1,Symbol of Transcendence x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:04,"Dragon's Lair B10",Win,2:58,4824,0,1,Rune,5*,7941,Focus,40.22,6,Rare,DEF 8%,,Accuracy 6%,CRI Rate 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:09,"Dragon's Lair B10",Win,2:50,4255,0,0,Rune,5*,12613,Endure,49.30,4,Hero,DEF +15,CRI Rate 5%,ATK +12,Accuracy 6%,ATK 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:19,"Dragon's Lair B10",Win,3:21,4511,0,1,Rune,6*,26945,Violent,58.97,6,Hero,ATK +22,CRI Dmg 5%,CRI Rate 4%,Resistance 8%,HP 7%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:24,"Dragon's Lair B10",Win,2:33,3980,0,0,Rune,6*,30554,Shield,57.39,2,Hero,DEF 11%,ATK 8%,HP +294,HP 5%,Accuracy 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:27,"Dragon's Lair B10",Win,3:01,4139,0,0,Rune,5*,10511,Focus,47.69,4,Hero,DEF +15,,Accuracy 7%,SPD +5,HP 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 17:31,"Dragon's Lair B10",Win,2:30,4826,0,1,Rune,5*,11095,Focus,45.61,1,Rare,ATK +15,CRI Rate 5%,Accuracy 4%,SPD +5,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:10,"Dragon's Lair B10",Win,2:48,4709,0,0,Unknown Scroll x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:15,"Dragon's Lair B10",Win,2:50,4517,0,2,Rune,5*,12312,Shield,48.93,3,Hero,DEF +15,CRI Rate 4%,CRI Dmg 5%,HP 7%,Resistance 3%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:21,"Dragon's Lair B10",Win,2:49,4382,1,3,Rune,5*,7941,Endure,38.22,6,Rare,Resistance 9%,,CRI Dmg 4%,HP +298,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:29,"Dragon's Lair B10",Win,3:02,3931,0,0,Symbol of Transcendence x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:35,"Dragon's Lair B10",Win,2:52,4363,0,1,Symbol of Transcendence x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:47,"Dragon's Lair B10",Win,2:38,4860,0,1,Rune,5*,10511,Endure,43.81,4,Rare,CRI Rate 5%,DEF 7%,HP +265,DEF +10,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:50,"Dragon's Lair B10",Win,2:43,4720,0,1,Rune,5*,9927,Focus,42.64,6,Hero,ATK 8%,,DEF +12,HP 6%,CRI Dmg 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 18:53,"Dragon's Lair B10",Win,2:39,4221,0,0,Rune,6*,24583,Guard,58.33,1,Hero,ATK +22,SPD +4,Resistance 7%,Accuracy 7%,HP 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 19:21,"Dragon's Lair B10",Win,2:56,4328,0,1,Rune,5*,8759,Guard,43.50,3,Hero,DEF +15,,Resistance 7%,HP +139,HP 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 19:24,"Dragon's Lair B10",Win,2:40,4178,0,1,Rune,5*,11679,Endure,42.08,2,Rare,DEF 8%,Accuracy 5%,HP +129,Resistance 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 19:31,"Dragon's Lair B10",Win,2:34,4709,0,1,Symbol of Harmony x6,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:07,"Dragon's Lair B10",Win,2:58,4754,0,1,Rune,5*,13863,Shield,42.33,1,Rare,ATK +15,HP 4%,HP +203,CRI Rate 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:10,"Dragon's Lair B10",Win,2:59,4324,1,0,Rune,5*,8409,Endure,39.51,4,Rare,DEF 8%,,ATK +13,SPD +5,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:15,"Dragon's Lair B10",Win,3:06,4697,0,0,Symbol of Transcendence x11,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:19,"Dragon's Lair B10",Win,3:10,4364,0,0,Rune,6*,25661,Focus,60.00,6,Legendary,DEF +22,,ATK +18,Resistance 6%,SPD +6,Accuracy 6%,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:23,"Dragon's Lair B10",Win,2:57,4641,0,0,Rune,5*,20065,Revenge,49.78,2,Legendary,DEF +15,CRI Rate 3%,HP 4%,ATK 7%,Resistance 3%,SPD +3,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:27,"Dragon's Lair B10",Win,2:54,4588,0,3,Rune,5*,14593,Revenge,45.31,2,Rare,DEF +15,HP 6%,ATK 4%,DEF 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:32,"Dragon's Lair B10",Win,3:14,4324,0,1,Rune,6*,24443,Shield,57.14,5,Hero,HP +360,CRI Rate 4%,SPD +5,Accuracy 6%,ATK 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 21:59,"Dragon's Lair B10",Win,2:34,4221,0,0,Symbol of Transcendence x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 22:02,"Dragon's Lair B10",Win,2:47,4039,0,1,Rune,5*,12769,Revenge,38.81,2,Rare,DEF +15,,HP 4%,CRI Dmg 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 22:17,"Dragon's Lair B10",Win,3:03,4853,0,1,Rune Piece x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 22:48,"Dragon's Lair B10",Win,3:39,4308,0,2,Rune,6*,24092,Violent,44.81,1,Rare,ATK +22,,HP 5%,HP +243,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 22:52,"Dragon's Lair B10",Win,3:03,4370,0,0,Rune,5*,11492,Revenge,40.59,4,Rare,ATK +15,,CRI Dmg 5%,ATK 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:08,"Dragon's Lair B10",Win,2:43,4381,0,0,Symbol of Transcendence x9,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:26,"Dragon's Lair B10",Win,2:54,4282,0,1,Rune,5*,16052,Revenge,49.69,5,Legendary,HP +270,SPD +4,DEF +13,Accuracy 3%,HP 5%,Resistance 3%,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:30,"Dragon's Lair B10",Win,2:48,4679,0,1,Rune,6*,21727,Revenge,52.68,5,Rare,HP +360,Accuracy 6%,CRI Rate 6%,DEF 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:44,"Dragon's Lair B10",Win,3:17,4741,0,1,Rune Piece x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:49,"Dragon's Lair B10",Win,2:48,4585,0,0,Rune,5*,13863,Shield,39.45,1,Hero,ATK +15,,ATK 4%,HP +114,CRI Rate 3%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:52,"Dragon's Lair B10",Win,2:35,4578,0,1,Rune,5*,11674,Revenge,48.32,5,Rare,HP +270,Resistance 7%,Accuracy 6%,DEF 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-05 23:55,"Dragon's Lair B10",Win,3:08,4916,0,1,Rune,5*,9343,Endure,45.92,5,Hero,HP +270,,CRI Dmg 5%,DEF +14,Accuracy 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 00:18,"Dragon's Lair B10",Win,3:10,8785,0,0,Rune,5*,9343,Endure,45.26,5,Hero,HP +270,,CRI Dmg 4%,DEF +15,Accuracy 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 00:22,"Dragon's Lair B10",Win,3:15,9398,0,1,Rune,5*,10511,Endure,43.79,4,Hero,HP 8%,,CRI Rate 5%,Resistance 3%,ATK 7%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:14,"Dragon's Lair B10",Win,2:28,4357,0,1,Symbol of Chaos x4,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:19,"Dragon's Lair B10",Win,3:56,4441,0,1,Rune,5*,10215,Revenge,38.50,5,Rare,HP +270,,ATK +10,Resistance 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:21,"Dragon's Lair B10",Win,2:30,4242,0,0,Rune,5*,11095,Guard,43.74,1,Rare,ATK +15,CRI Rate 5%,HP 4%,CRI Dmg 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:24,"Dragon's Lair B10",Win,2:43,4381,0,0,Rune,5*,12769,Shield,39.06,2,Rare,DEF +15,,SPD +3,DEF 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:27,"Dragon's Lair B10",Win,2:36,5038,0,0,Rune,6*,25461,Revenge,57.41,3,Legendary,DEF +22,,HP 6%,Accuracy 5%,SPD +5,HP +311,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:30,"Dragon's Lair B10",Win,2:22,4736,0,1,Rune,5*,14015,Focus,46.56,2,Hero,DEF +15,ATK +11,ATK 4%,SPD +3,Accuracy 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:33,"Dragon's Lair B10",Win,2:54,4653,0,2,Symbol of Transcendence x9,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:36,"Dragon's Lair B10",Win,2:33,4682,0,0,Rune,5*,11095,Focus,41.75,1,Hero,ATK +15,,Resistance 4%,HP +188,ATK 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:39,"Dragon's Lair B10",Win,2:51,3948,0,2,Rainbowmon 2,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:42,"Dragon's Lair B10",Win,2:26,4562,0,1,Symbol of Chaos x6,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:45,"Dragon's Lair B10",Win,2:32,4904,0,1,Rune,5*,13005,Violent,44.23,6,Rare,Accuracy 9%,ATK 7%,SPD +5,DEF 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:48,"Dragon's Lair B10",Win,3:10,4754,0,2,Symbol of Chaos x6,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:52,"Dragon's Lair B10",Win,3:15,4007,0,0,Rune,6*,21727,Revenge,52.68,5,Hero,HP +360,,DEF 7%,HP 8%,Accuracy 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:54,"Dragon's Lair B10",Win,2:23,4300,0,1,Rune,5*,7474,Endure,38.50,5,Rare,HP +270,,HP 6%,Resistance 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 01:57,"Dragon's Lair B10",Win,2:36,4155,0,4,Rune,5*,10511,Endure,42.45,4,Hero,HP +270,,CRI Dmg 3%,Resistance 3%,ATK 7%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:00,"Dragon's Lair B10",Win,2:33,4353,0,1,Rune,6*,20486,Endure,53.27,1,Rare,ATK +22,ATK 7%,CRI Rate 5%,HP 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:03,"Dragon's Lair B10",Win,2:30,4512,0,0,Rune Piece x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:06,"Dragon's Lair B10",Win,2:34,4523,0,0,Rune,5*,13314,Focus,49.48,1,Hero,ATK +15,Resistance 3%,CRI Rate 5%,ATK 6%,Accuracy 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:09,"Dragon's Lair B10",Win,2:51,4207,0,1,Rune,5*,13005,Violent,42.35,6,Rare,HP 8%,ATK 4%,CRI Dmg 5%,SPD +4,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:12,"Dragon's Lair B10",Win,2:57,4565,1,0,Rune,5*,14775,Revenge,48.41,4,Hero,ATK 8%,CRI Dmg 4%,DEF +9,Resistance 7%,SPD +5,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:15,"Dragon's Lair B10",Win,2:30,4299,0,0,Rune Piece x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:18,"Dragon's Lair B10",Win,2:42,4244,0,3,Symbol of Transcendence x8,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:21,"Dragon's Lair B10",Win,3:03,4483,0,1,Rune Piece x9,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:25,"Dragon's Lair B10",Win,3:03,4712,0,0,Rune,5*,9927,Guard,40.89,6,Rare,HP 8%,CRI Rate 3%,Resistance 7%,HP +113,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:27,"Dragon's Lair B10",Win,2:27,4921,0,0,Rune,5*,10511,Endure,41.72,4,Hero,CRI Rate 5%,,DEF 4%,ATK +10,HP +296,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:31,"Dragon's Lair B10",Win,2:45,4570,0,2,Symbol of Transcendence x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:34,"Dragon's Lair B10",Win,2:44,4275,1,2,Symbol of Transcendence x8,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:36,"Dragon's Lair B10",Win,2:29,4350,0,0,Rune,5*,17000,Violent,47.96,2,Hero,HP +270,DEF 5%,SPD +3,Resistance 7%,ATK +9,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:39,"Dragon's Lair B10",Win,2:32,5027,0,1,Rune Piece x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:42,"Dragon's Lair B10",Win,2:37,4532,0,0,Rune,5*,12130,Shield,38.17,1,Rare,ATK +15,,Accuracy 5%,SPD +3,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:45,"Dragon's Lair B10",Win,2:43,4763,1,2,Rune Piece x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:49,"Dragon's Lair B10",Win,3:13,4241,0,0,Symbol of Harmony x5,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:51,"Dragon's Lair B10",Win,2:28,4906,1,0,Rune,5*,11095,Guard,42.04,1,Rare,ATK +15,Accuracy 5%,Resistance 3%,CRI Rate 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:55,"Dragon's Lair B10",Win,3:16,4244,0,1,Symbol of Chaos x5,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 02:58,"Dragon's Lair B10",Win,3:10,4148,0,2,Symbol of Transcendence x9,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:01,"Dragon's Lair B10",Win,2:46,4886,0,0,Rune,5*,10880,Violent,42.96,5,Rare,HP +270,,Accuracy 7%,HP 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:04,"Dragon's Lair B10",Win,2:41,4989,0,1,Rune,5*,12613,Endure,47.21,4,Hero,DEF 8%,SPD +5,CRI Dmg 3%,HP +206,ATK +15,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:07,"Dragon's Lair B10",Win,2:33,4913,1,4,Rune,5*,14015,Focus,49.39,2,Hero,DEF +15,CRI Dmg 4%,HP 6%,ATK 7%,DEF 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:10,"Dragon's Lair B10",Win,2:47,4468,0,1,Rune,5*,14593,Shield,45.91,2,Hero,ATK +15,,DEF +10,Accuracy 7%,SPD +5,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:13,"Dragon's Lair B10",Win,2:43,4386,0,1,Rune,5*,12130,Shield,38.98,1,Rare,ATK +15,,CRI Dmg 4%,SPD +4,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:16,"Dragon's Lair B10",Win,2:34,4772,0,1,Rune,5*,11095,Guard,41.96,1,Hero,ATK +15,,HP +210,SPD +4,CRI Dmg 3%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:19,"Dragon's Lair B10",Win,2:26,4513,0,0,Rune,5*,15533,Focus,47.10,1,Legendary,ATK +15,,Resistance 7%,ATK 4%,CRI Rate 3%,SPD +3,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:22,"Dragon's Lair B10",Win,2:24,4290,0,2,Rune,5*,9576,Shield,40.47,3,Rare,DEF +15,,HP 7%,CRI Dmg 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:25,"Dragon's Lair B10",Win,2:57,4097,0,0,Rainbowmon 3,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:28,"Dragon's Lair B10",Win,2:55,4693,0,2,Rune,6*,24443,Revenge,50.59,4,Rare,HP +360,DEF +12,ATK 5%,CRI Dmg 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:31,"Dragon's Lair B10",Win,2:31,4328,0,0,Rainbowmon 3,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:34,"Dragon's Lair B10",Win,2:40,4480,0,1,Rune,5*,8876,Guard,37.24,1,Rare,ATK +15,,CRI Dmg 5%,HP +105,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:37,"Dragon's Lair B10",Win,2:39,4463,0,1,Rune,6*,14663,Focus,48.27,6,Rare,HP 11%,,ATK +18,CRI Dmg 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 03:40,"Dragon's Lair B10",Win,2:46,4855,0,2,Summoning Stones x3,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 09:32,"Dragon's Lair B10",Win,6:42,4784,0,1,Rune,5*,13863,Revenge,40.34,1,Rare,ATK +15,SPD +3,CRI Dmg 3%,CRI Rate 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 09:35,"Dragon's Lair B10",Win,2:21,4628,0,0,Rune,5*,14015,Endure,47.10,2,Hero,DEF +15,HP 5%,ATK 5%,Accuracy 4%,DEF 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 10:40,"Dragon's Lair B10",Win,3:17,4479,0,1,Rune,5*,13005,Violent,45.91,6,Hero,ATK +15,,ATK 7%,SPD +5,Resistance 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 10:44,"Dragon's Lair B10",Win,2:57,4277,0,2,Rune,5*,11560,Violent,37.09,6,Rare,HP +270,,ATK 4%,CRI Dmg 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 10:48,"Dragon's Lair B10",Win,3:04,4878,0,0,Rune,5*,10215,Shield,37.43,5,Rare,HP +270,,DEF +12,Accuracy 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 10:52,"Dragon's Lair B10",Win,3:16,4629,0,1,Rune Piece x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 10:56,"Dragon's Lair B10",Win,3:05,4297,0,0,Rune Piece x9,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 10:59,"Dragon's Lair B10",Win,3:00,4450,0,3,Rune,5*,11679,Guard,42.75,2,Hero,HP +270,,CRI Dmg 3%,CRI Rate 4%,DEF 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:02,"Dragon's Lair B10",Win,2:59,4336,0,0,Rune,5*,11674,Revenge,48.02,5,Rare,HP +270,SPD +5,Resistance 6%,HP 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:06,"Dragon's Lair B10",Win,2:52,4237,0,3,Rune Piece x9,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:09,"Dragon's Lair B10",Win,2:45,4548,0,0,Rune,5*,8759,Guard,40.41,3,Hero,DEF +15,,DEF 4%,SPD +4,HP +102,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:14,"Dragon's Lair B10",Win,2:47,4442,0,1,Symbol of Transcendence x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:20,"Dragon's Lair B10",Win,3:00,4611,0,2,Rune,5*,11492,Revenge,37.05,4,Rare,CRI Dmg 8%,,HP 6%,Accuracy 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:23,"Dragon's Lair B10",Win,2:55,4766,0,3,Rune,5*,10853,Shield,38.44,6,Rare,HP 8%,,CRI Rate 5%,Resistance 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:27,"Dragon's Lair B10",Win,2:52,4202,0,0,Rune,5*,15049,Revenge,52.78,3,Legendary,DEF +15,DEF 4%,HP 5%,CRI Rate 5%,HP +220,Resistance 5%,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:31,"Dragon's Lair B10",Win,3:16,4904,0,0,Rune,5*,7007,Focus,40.85,3,Rare,DEF +15,,Accuracy 7%,Resistance 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:39,"Dragon's Lair B10",Win,2:52,4596,0,1,Rune,6*,25677,Violent,52.30,4,Hero,HP 11%,,Resistance 6%,CRI Dmg 4%,CRI Rate 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:42,"Dragon's Lair B10",Win,3:06,4388,1,1,Symbol of Chaos x6,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:48,"Dragon's Lair B10",Win,3:34,4457,0,2,Rune,5*,14593,Revenge,40.52,2,Hero,ATK 8%,,Accuracy 3%,ATK +14,DEF +11,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:51,"Dragon's Lair B10",Win,2:38,5163,0,0,Rune,6*,13801,Guard,44.56,5,Rare,HP +360,,CRI Dmg 4%,CRI Rate 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:55,"Dragon's Lair B10",Win,3:06,5181,0,5,Symbol of Transcendence x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 11:59,"Dragon's Lair B10",Win,2:33,4414,0,2,Rune,6*,28530,Violent,57.50,4,Hero,ATK +22,ATK 5%,Resistance 6%,HP +253,Accuracy 8%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 15:40,"Dragon's Lair B10",Win,2:54,4871,0,1,Symbol of Transcendence x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 15:47,"Dragon's Lair B10",Win,3:24,4692,0,0,Rainbowmon 3,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 15:51,"Dragon's Lair B10",Win,3:11,4954,0,2,Symbol of Chaos x6,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 15:54,"Dragon's Lair B10",Win,3:07,4460,0,1,Rune,5*,13954,Revenge,46.15,6,Hero,HP +270,Accuracy 4%,ATK 4%,CRI Dmg 4%,DEF 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 15:58,"Dragon's Lair B10",Win,3:09,4638,0,2,Rune,5*,11674,Revenge,41.20,5,Rare,HP +270,CRI Dmg 3%,DEF +9,ATK 5%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 16:01,"Dragon's Lair B10",Win,2:40,4698,0,1,Rune,5*,13005,Violent,42.63,6,Rare,Accuracy 9%,DEF +8,ATK +15,SPD +5,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 18:32,"Dragon's Lair B10",Win,7:28,4645,0,0,Rune,6*,32778,Endure,58.36,1,Legendary,ATK +22,Accuracy 4%,SPD +4,HP 5%,Resistance 6%,HP +236,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 18:39,"Dragon's Lair B10",Win,3:18,4937,0,3,Rune,5*,11095,Endure,47.34,1,Rare,ATK +15,Accuracy 7%,HP +294,Resistance 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 18:45,"Dragon's Lair B10",Win,2:37,4321,0,0,Rainbowmon 2,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 18:49,"Dragon's Lair B10",Win,2:55,4370,0,2,Rune,6*,20288,Violent,46.79,5,Rare,HP +360,,ATK +11,Accuracy 8%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 18:52,"Dragon's Lair B10",Win,2:52,5071,0,2,Rune,5*,11095,Endure,42.12,1,Hero,ATK +15,,Accuracy 4%,CRI Dmg 3%,HP 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 18:56,"Dragon's Lair B10",Win,2:44,4498,0,2,Rune,5*,11560,Violent,37.39,6,Rare,Resistance 9%,,Accuracy 6%,SPD +3,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 19:03,"Dragon's Lair B10",Win,3:01,4784,0,0,Rune,5*,9343,Guard,41.53,5,Rare,HP +270,DEF +11,DEF 4%,SPD +3,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 19:09,"Dragon's Lair B10",Win,2:51,4710,0,4,Rune,6*,17251,Guard,54.39,5,Rare,HP +360,CRI Dmg 5%,DEF +18,SPD +6,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 19:17,"Dragon's Lair B10",Win,2:49,5025,1,2,Symbol of Transcendence x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 19:20,"Dragon's Lair B10",Win,2:52,4349,0,0,Rune,6*,23085,Shield,49.64,6,Hero,ATK 11%,,HP +159,Resistance 5%,ATK +18,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-06 19:33,"Dragon's Lair B10",Win,3:03,4689,0,1,Rune,5*,9927,Focus,40.14,6,Rare,HP 8%,Resistance 3%,DEF 5%,CRI Dmg 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:15,"Dragon's Lair B10",Win,2:27,4428,0,0,Rune,6*,24443,Shield,50.57,4,Hero,ATK 11%,,DEF 6%,HP +255,ATK +13,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:18,"Dragon's Lair B10",Win,2:53,4476,0,2,Rune,5*,9927,Endure,42.09,6,Rare,HP +270,ATK +9,CRI Dmg 3%,DEF 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:21,"Dragon's Lair B10",Win,2:44,4816,0,0,Symbol of Harmony x5,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:36,"Dragon's Lair B10",Win,3:03,4232,1,1,Rune,5*,13863,Shield,43.92,1,Rare,ATK +15,HP +224,HP 4%,SPD +5,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:39,"Dragon's Lair B10",Win,2:31,4646,0,1,Summoning Stones x3,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:42,"Dragon's Lair B10",Win,2:55,4643,0,1,Rune,5*,9576,Shield,38.98,3,Rare,DEF +15,,CRI Rate 4%,CRI Dmg 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:45,"Dragon's Lair B10",Win,2:41,4153,0,0,Rune Piece x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:48,"Dragon's Lair B10",Win,2:41,4366,0,1,Rune,5*,7941,Focus,37.09,6,Rare,HP +270,,CRI Dmg 3%,ATK 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:52,"Dragon's Lair B10",Win,3:19,4381,1,0,Rune,5*,8759,Endure,44.06,3,Hero,DEF +15,,HP +229,DEF 5%,CRI Dmg 5%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:55,"Dragon's Lair B10",Win,2:49,3993,0,0,Rune,5*,8876,Endure,36.77,1,Rare,ATK +15,,SPD +3,CRI Dmg 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 09:58,"Dragon's Lair B10",Win,2:40,4615,0,3,Rune,5*,11095,Endure,45.61,1,Rare,ATK +15,HP 6%,Accuracy 6%,CRI Rate 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:01,"Dragon's Lair B10",Win,2:47,4244,0,1,Rune,5*,13954,Revenge,50.58,6,Hero,DEF +15,CRI Rate 4%,ATK 6%,CRI Dmg 4%,HP 7%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:04,"Dragon's Lair B10",Win,2:37,4890,0,0,Rune,5*,14015,Guard,50.62,2,Hero,HP +270,CRI Dmg 4%,Accuracy 7%,ATK 4%,Resistance 7%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:07,"Dragon's Lair B10",Win,2:38,4672,0,2,Symbol of Harmony x4,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:09,"Dragon's Lair B10",Win,2:32,4260,0,1,Rune,6*,25360,Violent,48.21,2,Rare,ATK +22,,CRI Rate 6%,DEF 6%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:12,"Dragon's Lair B10",Win,2:36,4708,0,1,Rune,5*,7941,Focus,36.41,6,Rare,DEF 8%,,DEF +11,SPD +3,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:19,"Dragon's Lair B10",Win,2:51,4320,0,0,Rune,5*,9576,Revenge,38.17,3,Rare,DEF +15,,HP 5%,DEF 4%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:24,"Dragon's Lair B10",Win,2:53,4517,1,1,Rune,6*,18329,Focus,53.33,6,Hero,Resistance 12%,,DEF 8%,ATK +16,SPD +4,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:29,"Dragon's Lair B10",Win,2:41,4504,0,3,Rune Piece x10,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:32,"Dragon's Lair B10",Win,2:52,4620,0,1,Rune,5*,12240,Violent,42.78,5,Rare,HP +270,ATK +12,HP 5%,CRI Rate 3%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 10:39,"Dragon's Lair B10",Win,2:48,4919,0,0,Rune,5*,8409,Endure,39.96,4,Rare,DEF +15,,SPD +3,ATK 7%,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 11:38,"Dragon's Lair B10",Win,2:34,4460,0,1,Rune,5*,10511,Guard,46.47,4,Hero,ATK 8%,,SPD +5,HP 7%,Accuracy 6%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 11:41,"Dragon's Lair B10",Win,2:55,4564,0,1,Rainbowmon 3,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 11:49,"Dragon's Lair B10",Win,2:51,4323,0,1,Rainbowmon 2,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 11:52,"Dragon's Lair B10",Win,2:54,5096,0,0,Unknown Scroll x12,,,,,,,,,,,,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus
+2019-07-07 11:55,"Dragon's Lair B10",Win,2:51,4278,0,0,Rune,5*,10944,Revenge,44.04,3,Hero,DEF +15,,DEF 7%,Accuracy 4%,CRI Dmg 4%,,Verdehile,Veromos,Spectra,Belladeon,Sigmarus

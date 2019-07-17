@@ -25,15 +25,16 @@ afk=1000
 
 ;----------------------------------- OPTIONS ---------------------------------------------------------------------------------------------------------------
 run = -1										;num of runs 	( -1 -> Turn off )
-refil = 1										;num of refils 	( -1 -> Turn off (ce uporablas run lahk pa tut oboje))
+refil = 5										;num of refils 	( -1 -> Turn off (ce uporablas run lahk pa tut oboje))
 exitNox = 0										;0=false  1=true	(at the end exit noxplayer)
 shutDown = 0									;0=false  1=true	(at the end shut down PC)
 delay = 140000									;(Delay at star of each run in miliseconds)		my=140000
 
 picPath = D:\github\summonerswar\pics\			;CHANGE path (no name of img) end with \
-shop 	= shop.png								;Change name
-replay 	= replay.png							;Change name
-fail 	= fail.png								;Change name
+shop 	= shopx.png								;Change name
+replay 	= replayx.png							;Change name
+fail 	= failx.png								;Change name
+prepare	= prepare.png								;Change name
 
 
 ;--------------------------------- Doungeon ----------------------------------------------------------------------------------------------------------------
@@ -215,9 +216,19 @@ MouseClick, left, winX*0.484 , winY*0.865		;close
 sleep, afk
 quizCounter=0
 loop 5{
+;dodaj prepare
 	ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%replay%
 	if(ErrorLevel = 0){
 		MouseClick, left, winX*0.313 , winY*0.558		;replay
+		break
+	}
+	
+	ImageSearch, x, y, winX*0.234 , winY*0.432 , winX*0.416, winY*0.673, *%n% %picPath%%prepare%
+	if(ErrorLevel = 0){
+		MouseClick, left, replayX, replayY
+		sleep, afk
+		MouseClick, left, winX*0.313 , winY*0.558
+		sleep, afk
 		break
 	}
 	quizCounter++
@@ -241,7 +252,7 @@ return
 
 +Esc::
 FormatTime, currentTime, ,Time
-FileAppend, %currentTime% - Script ended after %numOfReplays% runs `n, %picPath%faildata.txt
+FileAppend, %currentTime% - Script ended after %numOfReplays% runs and %refilCount% refils`n, %picPath%faildata.txt
 ExitApp
 return
 
